@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.HeaderBox{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(237, 188, 12);
+  box-shadow: 1px 2px 10px;
+}
+.HeaderBox h1{
+  margin: 0px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 14px;
+  color: white;
+  
+}
+.adding_box
+{
+  width: 30%;
+  height: 100px;
+  box-shadow: 1px 2px 10px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.adding_box input{
+  margin-top:20px;
+  margin-left:10px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+.new_input{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+
+}
+.btn button{
+  /* width: 5%; */
+  position: absolute;
+  margin-left: 380px;
+  margin-top:-15px;
+  border-radius: 100%;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  box-shadow:  3px 4px 20px;
+  cursor: pointer;
+  
+  
+
+}
+.btn button:hover{
+  color: orangered ;
+}
+.new_input textarea{
+  outline: none;
+  border: none;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+
+}
+/* .Notes_box{
+  width: 300px;
+  height: inherit;
+  box-shadow:  3px 4px 20px;
+  border-radius: 10px;
+
+} */
+/* Notes.css (or your CSS file for styling) */
+.Notes_box {
+  border: 1px solid #ccc;
+ 
+  padding: 10px;
+  margin: 40px;
+  margin-top: 50px;
+  width: calc(20% - 20px); /* Set the width to 50% of the container with some margin */
+  display: inline-block; /* Make the note boxes inline-block elements */
+  /* box-sizing: border-box; Include padding and border in the width calculation */
+  border-radius: 10px;
+}
+
+.Notes_box i{
+  margin-left: 260px;
+  cursor: pointer;
+}
+.Notes_box i:hover{
+  color: red;
+}
